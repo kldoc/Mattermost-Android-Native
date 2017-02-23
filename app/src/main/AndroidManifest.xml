@@ -46,45 +46,45 @@
 
         <activity
             android:name=".rxtest.LoginRxActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="sensor"
             android:windowSoftInputMode="adjustResize|stateVisible" />
 
         <activity
             android:name=".view.settings.NotificationActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="sensor"/>
 
         <activity
             android:name=".view.channel.ChannelActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="sensor"/>
 
         <activity
             android:name=".view.channel.HeaderChannelActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="sensor"/>
 
         <activity
             android:name=".view.channel.PurposeActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="sensor"/>
 
         <activity
             android:name=".view.channel.NameChannelActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="sensor"/>
 
         <activity
             android:name=".view.channel.AllMembersChannelActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="sensor"/>
 
         <activity
             android:name=".view.channel.AddMembersActivity"
             android:theme="@style/searchActivityStyle"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="sensor"/>
 
         <activity
             android:name=".view.authorization.ChooseTeamActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="sensor"/>
 
         <activity
             android:name=".rxtest.GeneralRxActivity"
-            android:screenOrientation="portrait">
+            android:screenOrientation="sensor">
             <intent-filter>
                 <action android:name="OPEN_DIALOG" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -94,60 +94,60 @@
         <activity
             android:name=".view.direct.WholeDirectListActivity"
             android:theme="@style/searchActivityStyle"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="sensor" />
 
         <activity
             android:name=".view.search.SearchMessageActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="sensor"
             android:windowSoftInputMode="adjustResize|stateVisible" />
 
         <activity android:name=".rxtest.InviteUserRxActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="sensor"/>
 
         <activity android:name=".rxtest.ProfileRxActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="sensor"/>
 
         <activity android:name=".rxtest.EditProfileRxActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="sensor"
             android:windowSoftInputMode="adjustResize|stateHidden"/>
 
         <activity
             android:name=".view.settings.EmailEditActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="sensor"
             android:windowSoftInputMode="stateVisible"/>
 
         <activity
             android:name=".view.settings.PasswordChangeActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="sensor"
             android:windowSoftInputMode="adjustResize|stateVisible"/>
 
         <activity
             android:name=".view.addchat.AddExistingChannelsActivity"
             android:theme="@style/searchActivityStyle"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="sensor" />
 
         <activity
             android:name=".view.createChannelGroup.CreateNewChannelActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="sensor"
             android:windowSoftInputMode="adjustResize|stateVisible"/>
 
         <activity
             android:name=".view.createChannelGroup.CreateNewGroupActivity"
-            android:screenOrientation="portrait"
+            android:screenOrientation="sensor"
             android:windowSoftInputMode="adjustResize|stateVisible"/>
 
         <activity
             android:name=".view.viewPhoto.ViewPagerWGesturesActivity"
             android:theme="@style/Transparent"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="sensor"/>
 
         <activity
             android:name=".view.menu.RightMenuAboutAppActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="sensor" />
 
         <activity
             android:name=".rxtest.DownloadsListActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="sensor" />
 
         <service android:name=".service.MattermostService" />
 
