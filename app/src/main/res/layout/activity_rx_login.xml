@@ -100,7 +100,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="left|center_horizontal"
                         android:background="@drawable/touch_selector"
-                        android:onClick="@{loginPresenter.onForgotButtonClick}"
+                        android:onClick="@{loginPresenter::onForgotButtonClick}"
                         android:stateListAnimator="@null"
                         android:text="@string/login_forgot_password"
                         android:textColor="@color/error_color"
@@ -118,7 +118,7 @@
                         android:layout_weight="1"
                         android:background="@drawable/touch_selector"
                         android:enabled="@{loginPresenter.isEnabledSignInButton}"
-                        android:onClick="@{loginPresenter.onClickSignIn}"
+                        android:onClick="@{loginPresenter::onClickSignIn}"
                         android:stateListAnimator="@null"
                         android:text="@string/login_sign_in"
                         android:textColor="@drawable/selector_button_sign_in_color" />
