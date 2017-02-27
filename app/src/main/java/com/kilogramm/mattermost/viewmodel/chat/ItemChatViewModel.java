@@ -112,7 +112,7 @@ public class ItemChatViewModel extends BaseObservable implements ViewModel {
 
     }
 
-    @BindingAdapter("bind:items")
+    @BindingAdapter("items")
     public static void setItems(FilesView v, Post post){
         if(post!=null) {
 //            v.setItems(post.getFilenames());
@@ -144,7 +144,7 @@ public class ItemChatViewModel extends BaseObservable implements ViewModel {
         return post;
     }
 
-    @BindingAdapter({"bind:imageUrl"})
+    @BindingAdapter({"imageUrl"})
     public static void loadImage(ImageView view, String imageUrl) {
         if (imageUrl != null) {
             view.setRotation(0);
@@ -153,10 +153,10 @@ public class ItemChatViewModel extends BaseObservable implements ViewModel {
                     .resize(60, 60)
                     .error(view.getContext()
                             .getResources()
-                            .getDrawable(R.drawable.ic_person_grey_24dp))
+                            .getDrawable(R.drawable.ic_person_grey_24dp,null))
                     .placeholder(view.getContext()
                             .getResources()
-                            .getDrawable(R.drawable.ic_person_grey_24dp))
+                            .getDrawable(R.drawable.ic_person_grey_24dp,null))
                     .into(view);
         } else {
             view.setImageResource(R.drawable.ic_system_grey_24dp);
